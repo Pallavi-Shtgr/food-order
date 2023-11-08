@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 if($_SERVER['REQUEST_METHOD']=='POST' && isset ($_POST[' submit']))
 {
     $conn= mysqli_connect('localhost','root','','test1') or die ("connection failed" .mysqli_connect_error());
@@ -22,4 +22,12 @@ if($_SERVER['REQUEST_METHOD']=='POST' && isset ($_POST[' submit']))
     }
 
     }
+?> -->
+
+
+<?php
+$connection=new mysqli_connect("localhost","root","","test 1","4306");
+if(!$connection){
+    echo "connection failed"
+}
 ?>
