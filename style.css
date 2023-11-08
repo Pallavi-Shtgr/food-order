@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
     .container{
-   background-image: url(images/home.jpg);
+   background-image: url(./images/home.jpg);
    background-size: contain;
    background-position: center;
    width: 3000;
@@ -87,7 +87,7 @@ margin: 20px;
 
 }
 .cont{
-    background-image: url(6.jpg);
+    background-image: url(./images/6.jpg);
     background-size: contain;
     width: 4000;
    height: 1000px;
@@ -118,4 +118,9 @@ h3{
     display: none;
 
     
+}
+.cont p{
+    color:antiquewhite;
+    text-align:justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
