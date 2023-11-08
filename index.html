@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> FOOD WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+        <a href="./images/home.jpg"> ABOUT US </a>
+        <a href="./images/food.html"> FOODS  </a>
+        <a href=".images/ice.html"> DRINKS </a>
+        <a  onclick="contact()"> CONTACT </a>
+        <a href="https://forms.gle/BVDFqfNvXdYKGNUXA">FEED BACK </a><BR>
+         
+
+  </div>
+   <div class="contact" id="contact">
+    Restaurant Name: FOODIE HEAVEN<br>
+    Location: Deralakatte, Mangalore<br>
+    Email:foodieheaven@gmail.com<br>
+    Phone: 08254 87987/88/89<br>
+
+   </div>
+
+<div class="heading" id="food">
+
+        <h1 >FOODIE HEAVEN</h1>
+        <div class="order" id="order"><br>
+          &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+          <h3><a href="order.html">ORDER NOW</a></h3>
+        </div>
+      </div>
+      
+  </div>
+  <footer>
+    <p align="center " style="color: rgb(203, 37, 37);">&copy; 2023 FOODIE HEAVEN. All rights reserved.</p>
+</footer>
+<script>
+  function contact(){
+   let contact=document.getElementById('contact');
+    if(contact.style.display==='none')
+    contact.style.display='block';
+  else
+  contact.style.display='none';
+  }
+</script>
+</body>
+</html>

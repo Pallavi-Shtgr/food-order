@@ -1,0 +1,121 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    .container{
+   background-image: url(images/home.jpg);
+   background-size: contain;
+   background-position: center;
+   width: 3000;
+   height: 900px;
+   background-repeat: no-repeat;
+}
+.menu{
+
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align:end;
+    font-size: larger;
+    padding: 10px;
+}
+a:hover{
+    background-color: gray;
+    border-radius: 10px;
+   
+}
+.table{
+   font-size: large;
+   
+}
+td{
+    text-align: center;
+    border-color: rgb(3, 105, 87);
+    background-color: rgb(185, 231, 138);
+}
+img{
+margin: 20px;
+}
+.heading{
+    /* background-color: green;
+    background-size: 60%; */
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+#food{
+    color: rgb(247, 247, 169);
+    font-size:50px;
+   
+
+}
+.ice{
+    color: rgb(247, 247, 169);
+    font-size:50px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+
+}
+/* #order{
+    color: aliceblue;
+    font: size 10px; 
+    text-align: center;
+    position:relative;
+    top:30%;
+   text-align: center;
+    border-radius: 5px;
+    background-color: orangered;
+    background-size: 10px; */
+
+.order{
+    color: rgb(109, 8, 8);
+    /* width:100px; */
+    text-align: center;
+    font-size:x-large;
+    font-family:sans-serif;
+    margin : 10% ;
+
+}
+.cont{
+    background-image: url(6.jpg);
+    background-size: contain;
+    width: 4000;
+   height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis-style: 10%;
+    
+}
+h2{
+    color:rgb(4, 4, 68);
+    background-color: cadetblue;
+    text-align: center;
+}
+h3{
+    background-position:center;
+    text-align: center;
+    
+}
+.contact{
+    width: 30%;
+    height: 130px;
+    background-color: rgba(203, 224, 43, 0.525);
+    position: absolute;
+    right:20%;
+    display: none;
+
+    
+}
